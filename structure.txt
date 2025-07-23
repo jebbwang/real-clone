@@ -1,0 +1,9 @@
+realtime-sports/         ← the root folder (repo)
+├─ web/                  ← Next.js frontend app
+├─ api/                  ← Node.js backend service
+├─ pnpm-workspace.yaml   ← tells pnpm which folders are part of the workspace
+└─ package.json          ← root config for shared dev tools (e.g. linting, prettier)
+
+For every new terminal, run: nvm use to use the correct node version.
+
+To run the project, cd web, run: nvm use && pnpm dev

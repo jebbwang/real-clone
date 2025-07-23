@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env*
+.pnpm/
+.pnpm-debug.log*
+dist/
+build/
+*.tsbuildinfo
+.DS_Store
+.vscode/
+.idea/
+
