@@ -9,5 +9,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.10.0"
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@fastify/websocket": "^11.2.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "fastify-plugin": "^5.0.1"
+  }
 }
